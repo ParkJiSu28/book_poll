@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+<title>{% block title %}북마크앱{% endblock %}</title>
+
+{% block sidebar %}
+{{ block.super }}
+<ul>
+    <li><a href="/books/">Books</a></li>
+</ul>
+{% endblock %}

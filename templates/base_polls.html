@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+<title>{% block title %}튜표 앱 {% endblock %}</title>
+
+{% block sidebar %}
+{{ block.super }}
+<ul>
+    <li><a href="/polls/">투표목록</a></li>
+</ul>
+{% endblock %}
